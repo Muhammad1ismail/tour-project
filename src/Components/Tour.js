@@ -10,7 +10,7 @@ const Tour = (props) => {
     const {id,name,price,info,image,removeTour} = props;
    
   return (
-    <article>
+    <article key={id}>
         <img className='tourImage' src={image} />
         <div className='detail'>
           <h3>{name}</h3>
