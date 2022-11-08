@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: #e5e5e5;
+   font-family: sans-serif;
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   
+   
+   justify-content: center;
+   
+}
+
+.main{
+    max-width: 420px;
+    margin:auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+   
+}
+
+.main h1{
+    text-align: center;
+    padding-top:30px;
+}
+
+
+.tourImage{
+    width: 100%;
+    max-width:100%;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+article{
+    padding-bottom:20px;
+    background:#faf1f1;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.detail{
+    padding:7px 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price{
+    background-color: rgb(139, 139, 136);
+    padding:2px 10px;
+    border-radius: 3px;
+    color:#621a6a;
+    letter-spacing: 1px;
+}
+
+.info{
+    padding:7px 7px;
+}
+
+.show{
+    border:none;
+    color:rgb(64, 64, 117);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.not-interested{
+    background: none;
+    align-self: center;
+    width: 150px;
+    outline: none;
+    border: none;
+    padding:5px 10px;
+    border:2px solid grey;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    
+}
+
+.not-interested:hover{
+    background-color: black;
+    color:white;
+    border:2px solid black;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding-top:30px;
+}
+
